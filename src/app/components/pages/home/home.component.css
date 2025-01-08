@@ -1,0 +1,102 @@
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li a {
+  height: auto;
+  width: 18rem;
+  /* Adjusted width for better responsiveness */
+  border: 1px solid whitesmoke;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  color: #FFA07A;
+  text-transform: uppercase;
+  font-weight: bolder;
+  -moz-box-shadow: 0px 10px 10px -2px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0px 10px 10px -2px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 10px 10px -2px rgba(0, 0, 0, 0.26);
+}
+
+li a:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+li a img {
+  object-fit: cover;
+  width: 100%;
+  /* Make images responsive within their container */
+  height: 12rem;
+  /* Adjusted height for better responsiveness */
+}
+
+.content {
+  padding: 0.5rem 1rem;
+  /* Adjusted padding for better spacing */
+  position: relative;
+}
+
+.favorite {
+  top: 0.2rem;
+  /* Adjusted top position */
+  right: 0.8rem;
+  /* Adjusted right position */
+  font-size: 1.2rem;
+}
+
+.favorite.not {
+  color: rgb(128, 128, 128);
+}
+
+.product-item-footer {
+  display: flex;
+  flex-direction: column;
+  /* Adjusted flex direction for better responsiveness */
+  align-items: flex-start;
+}
+
+.origins {
+  flex: 1;
+  margin-top: 0.5rem;
+  /* Adjusted margin for better spacing */
+}
+
+.origins span {
+  border-radius: 2rem;
+  background-color: whitesmoke;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: grey;
+  margin-bottom: 0.3rem;
+  /* Adjusted margin for better spacing */
+  padding: 0.2rem 0.5rem;
+}
+
+.cook-time {
+  font-size: 0.9rem;
+  text-align: left;
+  /* Adjusted text alignment */
+  margin-top: 0.3rem;
+  /* Adjusted margin for better spacing */
+}
+
+.price {
+  position: absolute;
+  bottom: 0;
+  left: 0.9rem;
+  background: white;
+  padding: 0.3rem 1rem;
+  color: #414141;
+  margin-top: 0.7rem;
+  font-size: 1rem;
+  /* Adjusted font size */
+}

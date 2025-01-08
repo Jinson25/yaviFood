@@ -1,0 +1,11 @@
+.botones{
+  text-align: center;
+}
+.botones input,.btn{
+  margin: 0 3px;
+}
+.formulario, .lista{
+  border: 1px solid;
+  padding: 12px;
+  border-radius: 3px;
+}

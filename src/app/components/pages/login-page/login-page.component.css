@@ -1,0 +1,33 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  border-color: black solid 1px;
+  }
+
+  .details{
+    width: 28rem;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .error-list{
+    color: red;
+  }
+
+  .register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .details app-title{
+    text-align: center;
+    margin-bottom: 150px;
+    padding-bottom: 50px;
+  }
